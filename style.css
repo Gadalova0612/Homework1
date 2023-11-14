@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  height: 1024px;
+  background-image: url(img/main.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header__title {
+  color: #FFF;
+  font-size: 64px;
+  line-height: 78px;
+  font-weight: 700;
+ text-align: left;
+  padding-right: 1000px;
+  padding-bottom: 32;
+}
+
+.header-content {
+  padding-top: 217px;
+  padding-left: 120px;
+}
+.header__text {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  padding-top: 32px;
+}
+
+.header__bold {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.header__btn {
+  border-radius: 30px;
+  background: #9C0332;
+  width: 234px;
+  height: 49px;
+  color: #FFF;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 18px;
+  margin-top: 44px;
+}
+
+.header__btn__form {
+color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.main__content {
+  background-image: url(img/Rectangle\ 5.jpg) ;
+  padding-top: 128px;
+  column-gap: 32px;
+  width: 100%;
+}
+.game__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 125px;
+  
+}
+
+.game__text {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  padding-left: 152px;
+  padding-bottom: 160px;
+
+}
+
+.game__img {
+  border-radius: 16px;
+}
+
+.game__link {
+
+}
