@@ -67,3 +67,4 @@ alert(user[info]);
 //Задание 10
 let userName = prompt ("Как Вас зовут?");
 alert("Привет, ${userName}!");
+P
